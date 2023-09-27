@@ -1,0 +1,50 @@
+﻿@model List<RemedioModel>
+
+@{
+    ViewData["Title"] = "Remédios";
+
+    if ((bool)ViewData["IsAdmin"])
+    {
+        // Renderize a Shared de administrador
+        Layout = "_LayoutAdmin";
+    }
+    else
+    {
+        // Renderize a Shared normal
+        Layout = "_Layout";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listagem de Remédios</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Horário início</th>
+                <th scope="col">Horário próximo remédio</th>
+                <th scope="col">Recipiente</th>
+                <th scope="col">Frequência</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int contador = 1;
+            }
+            @foreach (var remedio in Model)
+            {
+                <tr>
+                    <th scope="row">@contador</th>
+                    <td>@remedio.NomeRemedio</td>
+                    <td>@remedio.HorarioInicio</td>
+                    <td>@remedio.HorarioProximoRemedio</td>
+                    <td>@remedio.Recipiente</td>
+                    <td>de @remedio.Frequencia em @remedio.Frequencia horas</td>
+                </tr>
+                contador++;
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_login";
+}
+@model CaixaINteligenteWeb.Models.UsuarioModel
+
+
+<form method="post">
+    <div class="login-container" style="background-color: #ffffff;">
+        <h1>Login</h1>
+       
+            <div class="alert alert-danger">
+                Login ou senha incorretos
+            </div>
+        
+        <div class="form-group">
+            <label for="username">Nome de Usuário:</label>
+            <input type="text" id="username" name="username" class="form-control" style="width: 95%;" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" class="form-control" style="width: 95%;" required>
+        </div>
+        <button type="submit" class="btn btn-primary" asp-controller="Home" asp-action="Login">Login</button>
+    </div>
+</form>

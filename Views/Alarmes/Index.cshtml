@@ -1,0 +1,45 @@
+﻿@model List<AlarmeModel>
+@{
+    ViewData["Title"] = "Alarmes";
+
+    @if ((bool)ViewData["IsAdmin"])
+    {
+        // Renderize a Shared de administrador
+        Layout = "_LayoutAdmin";
+    }
+    else
+    {
+        // Renderize a Shared normal
+        Layout = "_Layout";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listagem de Alarmes</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ativo</th>
+                <th scope="col">Data hora do cadastro</th>
+                <th scope="col">Remédio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int contador = 1;
+            }
+            @foreach (var alarme in Model)
+            {
+                <tr>
+                    <th scope="row">@contador</th>
+                    <td>@alarme.Ativo</td>
+                    <td>@alarme.DataHoraCadastro</td>
+                    <td>@alarme.nomeRemedio</td>
+                </tr>
+                contador++;
+            }
+        </tbody>
+    </table>
+</div>

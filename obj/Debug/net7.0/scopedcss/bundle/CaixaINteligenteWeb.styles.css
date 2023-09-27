@@ -1,0 +1,147 @@
+/* _content/CaixaINteligenteWeb/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-kqg9vchg7p] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-kqg9vchg7p] {
+  color: #0077cc;
+}
+
+.btn-primary[b-kqg9vchg7p] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-kqg9vchg7p], .nav-pills .show > .nav-link[b-kqg9vchg7p] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-kqg9vchg7p] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-kqg9vchg7p] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-kqg9vchg7p] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-kqg9vchg7p] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-kqg9vchg7p] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/CaixaINteligenteWeb/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-8fr7lq0rkf] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-8fr7lq0rkf] {
+  color: #0077cc;
+}
+
+.btn-primary[b-8fr7lq0rkf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-8fr7lq0rkf], .nav-pills .show > .nav-link[b-8fr7lq0rkf] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-8fr7lq0rkf] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-8fr7lq0rkf] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-8fr7lq0rkf] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-8fr7lq0rkf] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-8fr7lq0rkf] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/CaixaINteligenteWeb/Views/Shared/_login.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-xward88wwt] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-xward88wwt] {
+  color: #0077cc;
+}
+
+.btn-primary[b-xward88wwt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-xward88wwt], .nav-pills .show > .nav-link[b-xward88wwt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-xward88wwt] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-xward88wwt] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-xward88wwt] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-xward88wwt] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-xward88wwt] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
